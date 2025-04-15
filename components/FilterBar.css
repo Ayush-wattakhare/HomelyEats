@@ -1,0 +1,60 @@
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .filter-buttons button {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .filter-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .filter-buttons .active-all {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .filter-buttons .active-veg {
+    background-color: #16a34a;
+    color: white;
+  }
+  
+  .filter-buttons .active-nonveg {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .filter-buttons .inactive {
+    background-color: #e5e7eb;
+    color: #374151;
+  }
+  
+  .sort-select {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    background-color: white;
+    outline: none;
+  }
+  
+  .sort-select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  
