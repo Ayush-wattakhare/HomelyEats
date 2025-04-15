@@ -1,0 +1,64 @@
+/* src/components/Topbar.css */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .topbar-left h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .welcome-text {
+    font-weight: bold;
+  }
+  
+  .role-badge {
+    background-color: white;
+    color: #3f51b5;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+  }
+  
+  .profile-image img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .logout-button,
+  .theme-toggle {
+    background: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #3f51b5;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .logout-button:hover,
+  .theme-toggle:hover {
+    background: #e0e0e0;
+  }
+  
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  

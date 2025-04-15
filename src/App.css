@@ -1,0 +1,16 @@
+/* App.css */
+nav {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav a:last-child {
+    margin-right: 0;
+  }
+  
